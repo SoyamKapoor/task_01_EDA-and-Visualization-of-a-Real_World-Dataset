@@ -44,12 +44,12 @@ titanic-eda-visualization/
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/titanic-eda-visualization.git
-   cd titanic-eda-visualization
+   git clone https://github.com/your-username/task_01_EDA-and-Visualization-of-a-Real_World-Dataset.git
+   cd task_01_EDA-and-Visualization-of-a-Real_World-Dataset
    ```
 
 2. **Install Required Packages**
-   Make sure you have Python 3.x and Jupyter installed. Install libraries using pip:
+   Make sure you have Python 3.12.8 and Jupyter Notebook installed. You can install the required libraries using pip:
 
    ```bash
    pip install pandas matplotlib seaborn scipy
@@ -61,7 +61,7 @@ titanic-eda-visualization/
    ```
 
 4. **Explore the Analysis**
-   - Follow each section of the notebook to see how the data is cleaned, visualized, and analyzed.
+   - Follow each step in the notebook to see the data loading, cleaning, visualization, and insights process.
 
 ---
 

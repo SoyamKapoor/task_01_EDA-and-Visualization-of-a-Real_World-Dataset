@@ -30,11 +30,11 @@ This project performs **Exploratory Data Analysis (EDA)** and visualization on t
 ## 📂 Project Structure
 
 ```
-titanic-eda-visualization/
+task_01_EDA-and-Visualization-of-a-Real_World-Dataset/
 │
 ├── Titanic-Dataset.csv               # Raw dataset file
 ├── Titanic-Dataset_Imputed.csv       # Cleaned dataset after imputation
-├── EDA_main.ipynb                     # Jupyter Notebook with full EDA
+├── EDA_main.ipynb                    # Jupyter Notebook with full EDA
 ├── README.md                         # Project overview and instructions
 ```
 
@@ -94,11 +94,3 @@ titanic-eda-visualization/
 This analysis highlights key demographic and fare-related factors that influenced survival in the Titanic disaster. The project demonstrates foundational data science skills including cleaning, visualization, and insight extraction from real-world data.
 
 ---
-
-## 📬 Contact
-
-For questions or collaboration opportunities, feel free to reach out via GitHub or email.
-
-```
-
-Let me know if you want to add a license, data source credit, or convert this into a GitHub-ready HTML preview.

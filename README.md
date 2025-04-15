@@ -27,6 +27,12 @@ This project performs **Exploratory Data Analysis (EDA)** and visualization on t
 
 ---
 
+## 🌐 Data Source
+
+The Titanic dataset used in this project is publicly available on [Kaggle - Titanic Survival Prediction Dataset](https://www.kaggle.com/datasets/yasserh/titanic-dataset).
+
+---
+
 ## 📂 Project Structure
 
 ```
@@ -37,6 +43,30 @@ task_01_EDA-and-Visualization-of-a-Real_World-Dataset/
 ├── EDA_main.ipynb                    # Jupyter Notebook with full EDA
 ├── README.md                         # Project overview and instructions
 ```
+
+---
+
+## 📊 Key Steps in the Analysis
+
+### 1. Load and Inspect Data
+- Dataset loaded using Pandas
+- Basic structure and data types reviewed
+
+### 2. Data Cleaning
+- Handled missing values via **mean imputation**
+- Removed duplicate rows
+- Identified and discussed outliers using both statistical and visual methods
+
+### 3. Data Visualization
+- Created histograms for numerical features (Age, Fare, SibSp, Parch)
+- Bar plots for categorical variables like survival
+- Correlation heatmap to assess relationships between features
+
+### 4. Insights & Observations
+- Passengers in higher classes had higher survival rates
+- Fare amount showed a moderate positive correlation with survival
+- Age and family relationships had limited influence
+- Most numerical features are **right-skewed**
 
 ---
 
@@ -65,29 +95,6 @@ task_01_EDA-and-Visualization-of-a-Real_World-Dataset/
 
 ---
 
-## 📊 Key Steps in the Analysis
-
-### 1. Load and Inspect Data
-- Dataset loaded using Pandas
-- Basic structure and data types reviewed
-
-### 2. Data Cleaning
-- Handled missing values via **mean imputation**
-- Removed duplicate rows
-- Identified and discussed outliers using both statistical and visual methods
-
-### 3. Data Visualization
-- Created histograms for numerical features (Age, Fare, SibSp, Parch)
-- Bar plots for categorical variables like survival
-- Correlation heatmap to assess relationships between features
-
-### 4. Insights & Observations
-- Passengers in higher classes had higher survival rates
-- Fare amount showed a moderate positive correlation with survival
-- Age and family relationships had limited influence
-- Most numerical features are **right-skewed**
-
----
 
 ## 📌 Conclusion
 
